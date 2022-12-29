@@ -4,8 +4,6 @@ const readline = require("readline");
 const nodemailer = require("nodemailer");
 var ejs = require("ejs");
 
-
-
 const mailBulk = () => {
     // console.log("HII");
     var config = {
